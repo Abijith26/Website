@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-sections,
+.option-sections {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
