@@ -74,9 +74,7 @@ nav {
 
 .First-Section {
   max-width: 1300px;
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -86,7 +84,10 @@ nav {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 72px;
 }
 
 .main-heading {
@@ -96,12 +97,26 @@ nav {
   line-break: auto;
 }
 
+.sub-heading {
+  font-family: "Roboto";
+}
+
+.shop-button {
+  padding: 12px 36px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+
 .image-container {
   width: 100%;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 42px;
 }
 
 .image {
