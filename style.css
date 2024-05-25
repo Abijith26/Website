@@ -171,7 +171,7 @@ nav {
   width: 100%;
 }
 
-.image {
+.cat-image-container {
   overflow: hidden;
   width: 220px;
   height: 260px;
@@ -179,7 +179,7 @@ nav {
 .category-image {
   width: 220px;
   height: 260px;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
 .category-image:hover {
